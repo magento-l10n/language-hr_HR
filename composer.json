@@ -1,0 +1,20 @@
+{
+    "name": "community-engineering/language-hr_hr",
+    "type": "magento2-language",
+    "description": "hr_HR language package.",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+          "registration.php"
+        ]
+    }
+}
